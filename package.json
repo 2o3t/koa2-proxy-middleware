@@ -1,0 +1,40 @@
+{
+  "name": "@2o3t/koa2-proxy-middleware",
+  "version": "0.0.1",
+  "description": "http proxy middleware for koa2",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "files": [
+      "lib"
+  ],
+  "keywords": [
+    "http-proxy-middleware",
+    "middleware",
+    "proxy",
+    "koa2",
+    "reverse",
+    "http",
+    "https",
+    "connect",
+    "websocket",
+    "ws",
+    "cors"
+  ],
+  "author": "Zyao89 <zyao89@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "2o3t-logger": "^0.3.9",
+    "2o3t-utility": "^0.1.2",
+    "http-proxy": "^1.17.0",
+    "lodash": "^4.17.11"
+  },
+  "devDependencies": {
+    "eslint-config-2o3t": "^1.1.4",
+    "koa": "^2.7.0"
+  },
+  "engines": {
+      "node": ">= 8.0.0"
+  }
+}
