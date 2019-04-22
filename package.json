@@ -11,6 +11,8 @@
   ],
   "keywords": [
     "http-proxy-middleware",
+    "koa-proxy-middleware",
+    "koa2-proxy-middleware",
     "middleware",
     "proxy",
     "koa2",
@@ -36,5 +38,13 @@
   },
   "engines": {
       "node": ">= 8.0.0"
+  },
+  "bugs": {
+    "url": "https://github.com/2o3t/koa2-proxy-middleware/issues"
+  },
+  "homepage": "https://github.com/2o3t/koa2-proxy-middleware",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/2o3t/koa2-proxy-middleware.git"
   }
 }
