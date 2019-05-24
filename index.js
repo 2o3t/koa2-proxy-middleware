@@ -29,16 +29,9 @@ const PROXY = require('./lib/Proxy');
  * @param {*} opts
  */
 
-const middleware = function(context, opts) {
-    const proxy = new PROXY(context, opts);
-    return proxy;
+module.exports = function(context, opts) {
+    return new PROXY(context, opts);
 };
-middleware.upgrade = function(context, opts) {
-    const proxy = new PROXY(context, opts);
-    return proxy.upgrade;
-};
-
-module.exports = middleware
 
 /*
 
