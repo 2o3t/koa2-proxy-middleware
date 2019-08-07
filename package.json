@@ -1,6 +1,6 @@
 {
     "name": "@2o3t/koa2-proxy-middleware",
-    "version": "0.0.4",
+    "version": "0.0.5",
     "description": "http proxy middleware for koa2",
     "main": "index.js",
     "scripts": {
